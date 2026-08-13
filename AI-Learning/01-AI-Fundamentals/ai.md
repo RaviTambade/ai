@@ -2,11 +2,7 @@
 
 ## **Building AI Systems with Large Language Models (LLMs)**
 
-*"Come, sit down for a few minutes."*
-
-*"Many students ask me, 'Sir, I know ChatGPT. I know prompts. Am I an AI Engineer now?'*
-
-*"My answer is always the same..."*
+*"Come, sit down for a few minutes. Many students ask me, 'Sir, I know ChatGPT. I know prompts. Am I an AI Engineer now?' "My answer is always the same..."*
 
 **Using AI is easy. Building AI is engineering.**
 
@@ -85,7 +81,7 @@ Instead of searching for keywords... the database searches for **similar meaning
 
 # Step 6 — Build the RAG Pipeline
 
-This is where everything changes. 
+This is where everything changes.  
 Without RAG:
 User → LLM → Guess
 
@@ -148,6 +144,4 @@ but to **AI System Engineers**.
 
 **Learn. Build. Deploy. Repeat.**
 
-That's the journey from curiosity to capability... and from capability to creation.
-
-Tap your potential.
+That's the journey from curiosity to capability... and from capability to creation. Tap your potential.

@@ -1,10 +1,6 @@
 # Generative AI
 
-Dear students, When people hear **Generative AI**, they often immediately think: "ChatGPT."
-
-But ChatGPT is only one example. The bigger idea is this:
-
-> **Generative AI is a new way of building software where applications can understand information, reason over context, and generate useful outputs.**
+Dear students, When people hear **Generative AI**, they often immediately think: "ChatGPT."  But ChatGPT is only one example. The bigger idea is this:  **Generative AI is a new way of building software where applications can understand information, reason over context, and generate useful outputs.**
 
 As software developers, we should not learn GenAI merely as a collection of tools. We should learn its **architecture**.
  
@@ -51,8 +47,6 @@ User:
 ```
 
 The model generates a response. That is the fundamental idea behind **Generative AI**.
-
- 
 
 ## The GenAI Mental Model
 
@@ -126,7 +120,6 @@ Or:
 
 The prompt is the **starting point of the interaction**.
 
- 
 
 ## Mentor Question
 
@@ -152,8 +145,6 @@ Which one gives the AI better direction? Obviously the second one. This teaches 
 
 Prompt engineering begins with learning how to communicate requirements clearly.
 
- 
-
 ### 2️⃣ LLM — The Intelligence Engine
 
 Now our prompt goes to a model. We commonly hear the term:
@@ -170,17 +161,11 @@ Llama
 Mistral
 ```
 
-The model has learned patterns from large amounts of training data.
-
-But don't imagine an LLM as:
+The model has learned patterns from large amounts of training data. But don't imagine an LLM as:
 
 > "A database containing every answer."
 
-That's an important misconception.
-
-An LLM is a trained model that predicts and generates sequences based on learned patterns and the context provided to it.
-
- 
+That's an important misconception. An LLM is a trained model that predicts and generates sequences based on learned patterns and the context provided to it.
 
 ## A Simple Example
 
@@ -259,8 +244,6 @@ Answer
 
 That's RAG.
 
- 
-
 ## Example: Insurance Assistant
 
 Suppose the user asks:
@@ -319,8 +302,6 @@ Context construction
 Evaluation
 ```
 
- 
-
 ### 4️⃣  AI Processing
 
 Now our AI application can do much more than answer questions. It can process information. For example:
@@ -375,8 +356,6 @@ English → Japanese
 English → French
 ```
 
- 
-
 ## Data Analysis
 
 Imagine a business analyst uploads:
@@ -395,15 +374,7 @@ Creating summaries
 Explaining anomalies
 ```
 
-Now we are moving from:
-
-> **Software that executes commands**
-
-toward:
-
-> **Software that helps users interact with data using natural language.**
-
- 
+Now we are moving from:  **Software that executes commands** toward:  **Software that helps users interact with data using natural language.**
 
 ## Email and Document Generation
 
@@ -432,8 +403,6 @@ Final document
 ```
 
 That can significantly improve productivity.
-
- 
 
 ### 5️⃣ Output — What Can GenAI Produce?
 
@@ -504,7 +473,6 @@ GET /api/customers/101
 
 The system executes deterministic logic.
 
-  
 
 ###### AI-Enabled Application
 
@@ -587,11 +555,7 @@ Now we are entering the world of:
 
 ###8️⃣ Tools — Giving AI the Ability to Act
 
-An LLM by itself mainly generates responses.
-
-But an AI application can give it tools.
-
-For example:
+An LLM by itself mainly generates responses. But an AI application can give it tools. For example:
 
 ```text
 Agent
@@ -608,8 +572,6 @@ Agent
 Now the AI can interact with external systems, subject to the permissions and safeguards designed by developers. This is a major architectural shift.
 
 > **LLM gives intelligence. Tools give capability.**
-
- 
 
 ### 9️⃣ Enterprise AI Needs Security
 
@@ -689,11 +651,7 @@ Insurance Assistant
 
 ###### 📊 Data Analysis
 
-Allow users to ask:
-
-> "What were our highest-selling products last quarter?"
-
-using natural language interfaces connected to appropriate data systems.
+Allow users to ask:  "What were our highest-selling products last quarter?"  using natural language interfaces connected to appropriate data systems.
 
  
 ### 11️⃣ GenAI Does Not Mean "Replace Humans"
@@ -783,12 +741,7 @@ As a developer, I want you to gradually move toward this mental model:
                  DEPLOYMENT
 ```
 
-This is the architecture I want you to understand. 
-Not a particular framework.
-
-Not a particular model.
-
-Not a particular vendor.
+This is the architecture I want you to understand.  Not a particular framework. Not a particular model. Not a particular vendor.
 
 **The responsibilities.**
 
@@ -923,18 +876,8 @@ But every new generation builds on the previous one.
 Your:
 
 ```text
-C##
-Java
-Python
-SQL
-HTTP
-REST
-OOP
-Databases
-Cloud
+C##, Java, Python, SQL, HTTP, REST, OOP, Databases, Cloud
 ```
 
-knowledge is **not becoming useless because of AI**. It is becoming the foundation upon which you build AI-powered systems. So don't learn Generative AI as:  **"Which AI tool should I use?"**
-Learn it as:  **"How can I combine models, knowledge, tools, data, software engineering and human expertise to solve a real problem?"**
-That is the mindset of an **AI application engineer**.
+knowledge is **not becoming useless because of AI**. It is becoming the foundation upon which you build AI-powered systems. So don't learn Generative AI as:  **"Which AI tool should I use?"** Learn it as:  **"How can I combine models, knowledge, tools, data, software engineering and human expertise to solve a real problem?"** That is the mindset of an **AI application engineer**.
 > 🌸 **Don't just learn to talk to AI. Learn to build software that can intelligently work with AI.**
