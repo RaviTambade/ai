@@ -1,4 +1,4 @@
-### 🌱 **Voice Sound**
+# **Voice Sound**
  
 
 After machines learned to **read** and **see**, One student raised his hand and asked:
@@ -7,15 +7,12 @@ After machines learned to **read** and **see**, One student raised his hand and 
 
 I replied softly, “It doesn’t hear like you. It **converts sound into meaning.**” And that is the story of Voice AI.
 
- 
 
 ## 🎧 Chapter 3: Teaching Machines to Listen and Speak
 
 *(Voice & Sound)*
 
-In the beginning…  To a computer… Your voice was just: Waves, Frequencies, Noise.
-
-No emotion, No words, No intention, Just vibration.
+In the beginning…  To a computer… Your voice was just: Waves, Frequencies, Noise. No emotion, No words, No intention, Just vibration.
 
  
 ### 🔊 Step 1: Teaching Listening (Speech Recognition)
@@ -33,7 +30,7 @@ Slowly.
 Repeatedly.
 Patiently.
 
-Now when you say:  “Open my notes”
+Now when you say:  “Open my notes” 
 
 AI hears:
 
@@ -143,11 +140,4 @@ For students. By students.
 ### 📜 Life Lesson
 
 I ended that session with:  “When machines learn to listen,  humans must learn to speak wisely.”
-
 Because technology amplifies… Whatever we give it.
-
-Next, shall we continue with:
-
-📚 Chapter 4: Intelligent Search & Summarization
-or
-🎨 Chapter 5: Generative & Multimodal AI, Sir?

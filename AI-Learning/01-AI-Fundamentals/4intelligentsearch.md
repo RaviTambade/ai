@@ -455,9 +455,7 @@ And most importantly, you begin to understand why **RAG became such an important
  
 # 📜 Life Lesson
 
-I ended the session with a question:  “If information is power, what happens when information becomes unlimited?”
-
-The students became quiet. I answered:
+I ended the session with a question:  “If information is power, what happens when information becomes unlimited?” The students became quiet. I answered:
 
 > **“Then the real skill is no longer collecting information.
 > The real skill is knowing what to ignore, what to retrieve, and what to understand.”**
@@ -470,13 +468,3 @@ RAG gives us grounded knowledge.
 And intelligence begins when we know what to do with it.**
 
  
-
-### 🚀 Next Chapter
-
-And then one student asked:
-
-> **“Sir… if AI can read, see, listen, search, summarize, and understand… can it also create something completely new?”**
-
-I smiled. “Now you're ready for the next chapter.”
-
-**🎨 Chapter 5: Generative & Multimodal AI — Teaching Machines to Create**

@@ -1,4 +1,4 @@
-### 🌱 **Transflower Mentor Continuation**
+# Multimodel and Generative AI
 
 
 One day in the lab,a student showed me his laptop and said proudly:
