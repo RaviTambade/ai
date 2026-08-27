@@ -62,7 +62,6 @@ ML Model
  ↓
 ₹45,000
 ```
-
 Examples:
 
 * Insurance premium
