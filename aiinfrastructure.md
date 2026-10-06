@@ -287,8 +287,6 @@ versus:
 
 That is an important architecture decision.
 
- 
-
 # 6️⃣ DPU — The Data Center Traffic Controller
 
 Now comes the interesting one.
@@ -333,8 +331,6 @@ Internet
 ```
 
 The objective is simple: **Don't make the CPU spend all its time doing infrastructure work when specialized hardware can offload it.**
-
- 
 
 # 🌐 Now Let's Follow One AI Request
 
@@ -384,8 +380,6 @@ YOU
 ```
 
 But now the mentor says: “This is a simplified conceptual picture. Real data-center architectures vary. Not every AI request follows exactly this sequence, and different providers use different accelerator and networking architectures.”
-
- 
 
 # 1. DPU / Networking Layer
 
