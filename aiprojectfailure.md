@@ -639,3 +639,69 @@ Business Problem Solver
 And finally:
 
 # **A model gets you moving.  The bridge gets you there.**
+
+
+In the insurance example, the **AI should not be presented as the decision-maker**. It should be a decision-support component inside a controlled insurance workflow.
+
+### Clear AI boundary
+
+Think of it like this:
+
+**AI can:**
+
+* Extract information from claim forms, emails, and documents.
+* Summarize a customer's policy and claim history.
+* Retrieve relevant policy clauses using RAG.
+* Identify potentially relevant factors or missing information.
+* Predict a risk/claim score **if the model has been validated for that purpose**.
+* Explain why a prediction was made, with supporting evidence.
+* Recommend a next step to a human reviewer.
+
+**AI should not automatically:**
+
+* Approve or reject a claim merely because the model says so.
+* Determine a customer's eligibility without applying the actual business/legal rules.
+* Invent policy terms when information is missing.
+* Make unsupported assumptions about a customer.
+* Override underwriting, claims, compliance, or regulatory rules.
+* Hide uncertainty behind a confident answer.
+
+### The architecture becomes clearer
+
+```text
+Customer / Claim
+       ↓
+Documents + Policy Data
+       ↓
+   DATA LAYER
+       ↓
+Context / Retrieval
+       ↓
+      AI
+ ┌───────────────┐
+ │ Extract       │
+ │ Summarize     │
+ │ Retrieve      │
+ │ Predict       │
+ │ Recommend     │
+ └───────────────┘
+       ↓
+Evaluation + Business Rules
+       ↓
+ ┌─────────────────────┐
+ │ Human Reviewer      │
+ │ / Authorized System │
+ └─────────────────────┘
+       ↓
+Approve / Reject / Escalate
+```
+
+The important distinction is:
+
+> **AI recommends; the governed insurance process decides.**
+
+For the storytelling session, I'd change the original example from **“AI says the customer is eligible”** to:
+
+> **“The AI analyzes the customer's information, retrieves the relevant policy clauses, and recommends whether the case appears eligible. The claims system and authorized reviewer then make the actual decision.”**
+
+That makes the example much safer and also teaches students an important engineering concept: **the boundary between probabilistic AI and deterministic business rules.**
