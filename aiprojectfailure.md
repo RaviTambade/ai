@@ -497,12 +497,8 @@ It is:  **“Not safe to cross.”**
 The mentor gives five rules.
 
 ### Rule 1 — Name the business metric before the model
-
-Don't begin with:  “Let's use GPT.”
-
-Begin with:  “What business problem are we solving?”
-
-For example:
+ 
+Don't begin with:  “Let's use GPT.” Begin with:  “What business problem are we solving?” For example:
 
 ```text
 Business Goal
@@ -546,17 +542,13 @@ This creates an engineering loop.
 
 ### Rule 4 — Ship to ten real users
 
-Not ten developers. Not ten managers. **Ten real users.** Observe their behavior. Because:
-
-> **What users do is more valuable than what users say.**
+Not ten developers. Not ten managers. **Ten real users.** Observe their behavior. Because:  **What users do is more valuable than what users say.**
 
  
 
 ### Rule 5 — Earn trust
 
-Don't tell users:
-
-> “Trust our AI.”
+Don't tell users:  “Trust our AI.”
 
 Instead demonstrate:
 
@@ -577,12 +569,9 @@ Then allow the user to verify. Trust is earned.
 
 One student asks:
 
-**Student:**
-“Sir, so is AI really the difficult part?”
+**Student:** “Sir, so is AI really the difficult part?”
 
-The mentor pauses.
-
-Then answers: “The model is only one part of the problem. The real engineering challenge is connecting intelligence to reality.” The classroom becomes quiet. The mentor draws one final picture.
+The mentor pauses. Then answers: “The model is only one part of the problem. The real engineering challenge is connecting intelligence to reality.” The classroom becomes quiet. The mentor draws one final picture.
 
 ```text
              IDEA
@@ -608,9 +597,7 @@ Then answers: “The model is only one part of the problem. The real engineering
        BUSINESS VALUE
 ```
 
-And then writes on the board:
-
-# **“Don't build only the AI. Build the bridge.”**
+And then writes on the board:  **“Don't build only the AI. Build the bridge.”**
 
 
 ## 🌱 Transflower Mentor Takeaway
@@ -625,9 +612,7 @@ As developers, don't become fascinated only by:
 * LangChain
 * OpenAI APIs
 
-These are **tools**.
-
-The real question is:  **Can we convert technology into measurable business value?** A successful AI engineer therefore thinks beyond the model.
+These are **tools**. The real question is:  **Can we convert technology into measurable business value?** A successful AI engineer therefore thinks beyond the model.
 
 ```text
 Developer
