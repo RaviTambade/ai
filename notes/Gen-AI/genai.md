@@ -72,15 +72,12 @@ The duration can vary depending on the depth and pace of learning, but for a com
 - **Hands-on Coding Exercises**: At the end of each week, participants will be tasked with implementing a piece of the generative model.
 - **Capstone Project**: At the end of the course, participants submit a project where they implement generative AI techniques on real-world datasets.
 
- 
-
 ### **7. Tools & Technologies:**
 - **Programming Language**: Python
 - **Libraries**: PyTorch, TensorFlow, Keras, Hugging Face (Transformers)
 - **Cloud Platforms**: Google Colab, Kaggle, or cloud GPUs for training models
 - **Development Environments**: Jupyter Notebooks, VSCode, or PyCharm
 
- 
 
 ### **Conclusion:**
 This course provides a strong foundation in generative AI techniques with hands-on experience. By the end of the course, learners will be able to understand and implement key generative models and apply them to real-world problems.
