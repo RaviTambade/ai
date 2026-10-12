@@ -7,15 +7,12 @@ Mentor's principle: Don't learn AI engineering by collecting frameworks. Learn i
 
 ## 1. Understand the five learning pillars
 
-[How Transformer LLMs Generate Text: One Token at a Time | by alex buzunov | CodeX | Medium](https://images.openai.com/static-rsc-4/lJj5gV5bdveaeulut26-trcZIAevb3fupjSD2cNqyvrf9FMx0iGscsMCbupaqE7Clyl5aO_Cp3olJQT1hreBBv_9JqCpCtLmm_2j53PQFkCy43iIId-v_BTX7sBVN0mAioRt4SY5fgfiNfqlsJlYX_YVvvfc-KDbmooS8ikogio?purpose=inline)
-
 1\. LLMs from scratch
 
 Understand tokens, embeddings, transformers, attention, inference, context windows, and model limitations.
 
 Outcome: Explain what happens when a model receives a prompt and generates a response.
 
-[Retrieval-Augmented Generation (RAG) in GCP | by Javier Fernandez | Medium](https://images.openai.com/static-rsc-4/8JhvM8XaqUmZBxDF13gyaSibWOkcC89y706U0TgzifDhQmcOnkA1aybVE2kLW9ulR-h0XlKgZLLuwd5AmV2wDS3KgpDZCfgOBUbTzBMNA-J6SnRTsAgbwF0RYbJ9WXw1FN-mkfxaUgzTRow3tcL2DRa7SYb96VYax2r57rmIJw8?purpose=inline)
 
 2\. RAG, fine-tuning and evaluations
 
@@ -23,7 +20,6 @@ Learn document ingestion, chunking, embeddings, vector search, retrieval, ground
 
 Outcome: Build an AI assistant that uses trusted organizational knowledge.
 
-[Model Context Protocol (MCP) Fundamentals | by Sadik Shaikh | Medium](https://images.openai.com/static-rsc-4/7akkLnf3A_YEx-HGiqCKgpbpIReqt4SwARMDKmpzKmh6T1qellxbW6S1GTJu4KhORdrR2oHY16phUjq0mj_bukWkexB8vtFhzqkG0W7PBTMRgW5mPBaKA7oc3Xu4anZ3-kU3-g4zYsqyGR31OXU_oxvdwMlag6C9KK2U0GbeWOQ?purpose=inline)
 
 3\. MCP, tool calling and protocols
 
@@ -31,7 +27,7 @@ Connect models to APIs, databases, files and external services through well-defi
 
 Outcome: Build an assistant that can retrieve actual policy information rather than inventing it.
 
-[Agentic AI Architecture: Defining the Autonomous Enterprise | Unstructured](https://images.openai.com/static-rsc-4/jvryOKKi1N3ArvGBiecqrq9ZSOkeY7DQ2FqnHUgY7DrxBwHETLclygd3pBfHR3Sv2b9PvskjMd-EVvtx5Ir1lmoogf80Bb-xigKgHKnJp79TK8-lXunnKzvczJr_3DYQ4TJQ-Pm-bnymfT5-klw-R0hu1fFIPY5zYOOzfbWSVXs?purpose=inline)
+
 
 4\. AI agents and agent engineering
 
@@ -39,23 +35,18 @@ Learn planning, tool selection, state, memory, workflow orchestration, error han
 
 Outcome: Automate a bounded business workflow with controlled permissions.
 
-[The Real Stack Behind AI Agents in Production — MCP, Kubernetes, and What Nobody Tells You - DEV Community](https://images.openai.com/static-rsc-4/4zatSEU65_gyg-j_QSPaA3UQYR2nVcb6TD325hUELgVhVG9115xTxzVKYv8gkb-ZZSR9S_UlQtftDXBGWwCxAttVvwpjVgycfT6BULsdGYsv3W2djL-NCu_mJkeGl2xSXoUBaPTQRwqgJ2Pqn2VvkxuMqrR28HKy1_oNdbZ1aFY?purpose=inline)
-
 5\. Infrastructure and production
 
 Learn model serving, deployment, gateways, caching, security, observability, latency, cost control, and scalability.
 
 Outcome: Operate an AI application reliably, not just demonstrate it on a laptop.
 
+
 ## 2. The complete learning journey: foundations to production
 
 The official AI Engineering from Scratch curriculum is broader than the five pillars in the post. Its 20 phases cover mathematics, machine learning, deep learning, vision, NLP, transformers, LLMs, agents, infrastructure, safety, and capstone projects.&#x20;
 
-[image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
 
-GitHub
-
-+1
 
 Stage 1 — Understand the intelligence
 
@@ -98,18 +89,10 @@ Phases 17–19 · Production and capstones
 
 Build: a deployed AI service with tests, evaluation, access control, and monitoring.
 
-Phase groupings follow the official curriculum's published phase structure.&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://github.com\&sz=32)
-
-GitHub
-
-+1
-
 
 ## 3. The advanced topics that distinguish an AI engineer
 
-The deep dives listed in your post are especially useful after students have built their first working AI application.
+The deep dives listed  are especially useful after students have built their first working AI application.
 
 | Topic                 | What students should learn                                                                    |
 | --------------------- | --------------------------------------------------------------------------------------------- |
@@ -129,7 +112,6 @@ One important distinction to teach: RAG, fine-tuning, and context engineering so
 
 These projects turn the roadmap into demonstrable engineering skills.
 
-[Reduce iOS Development Time by 60% with Claude Code | by Osman Demiröz | Mar, 2026 | Medium](https://images.openai.com/static-rsc-4/__QlMX-Gt1xdjT6Kqdfv_TKf3b2_9YTp9NfKHAGvV-pHO8ZSPprqRjYLGKKIJOdGj_8i76-dGuZqNAmT4cvEHz8ANMUdXjr1zurAF0cQRcEmzi-rJ-PKkvKgCvM4hogRcz9IRsrNK9jDSZOJCv8m5-PtQukmuhOHOG0u09n0pqw?purpose=inline)
 
 Project 1 — Terminal Coding Agent
 
@@ -139,17 +121,16 @@ Build a Python agent that reads a task, selects approved tools, inspects files, 
 
 Learn: agent loops, tool calling, permissions, and failure handling.
 
-[RAG Chatbot: What It Is, How It Works, and Why It Matters](https://images.openai.com/static-rsc-4/CCAa-9V8h0M-62LbmX4N-xe4ezCLGsqU6nAP5_vOJavePM3YgmokkU1_lmrZAJ7JHUOMQ4IIN2K2wv8dcs94iryhAq1nCeg_yZrOIHcbvfcwG3zhytnSrEokkgn07N8iqmKG5sCCouBwQP1OvWrKWEpEVMsdh6HqUnWfuRgB2tQ?purpose=inline)
+
 
 Project 2 — Production RAG Chatbot
 
 Intermediate
 
-Build an assistant that answers questions about insurance policies using approved documents and returns relevant source citations.
+Build an assistant that answers questions about Application Development using approved documents and returns relevant source citations.
 
 Learn: ingestion, chunking, embeddings, retrieval, grounded generation, and evaluation.
 
-[Are you building a multi-agent AI or a collaborative AI system | by Chetna Khanna | Data Science Collective | Mar, 2026 | Medium](https://images.openai.com/static-rsc-4/MfQdVyNMs7E1FhbbMaZAHhNrnBeSmDMLMCjU7EUNLVinyyEr-leoaTkmIALgxuQQeLh_s9GrDkgwTSQPdc-1IknbTa74M536mWhd0MgImoD7Hf9NnHyS7lPMr3EIQqV_BYNbQE72frlA4APnpCS_IeCrreZDwSuMYiI388G9b1g?purpose=inline)
 
 Project 3 — Multi-Agent Software Team
 
@@ -159,7 +140,6 @@ Coordinate planner, developer, and reviewer agents to complete a bounded softwar
 
 Learn: orchestration, shared state, evaluation, and coordination costs.
 
-[Build an AI-powered Golang code review agent with CircleCI and GitHub webhooks - CircleCI](https://images.openai.com/static-rsc-4/SQjhp67FEjmVJgf8D-Aqhux_FIfkk_FDmqQ_kWnngeeNQlZBmuXcW2GT6n0av7NsEu9qYqjP4NI_qlWiU3UXUEHztfCHiHxodDtvmSeefXA5e6WZylAc2232K13toffbivTcKZZBFPnbUO11a9kiUJiLopt2Sc_MudUCDooleD8?purpose=inline)
 
 Project 4 — GitHub Issue-to-PR Agent
 
@@ -169,7 +149,6 @@ Turn a GitHub issue into a proposed patch, run tests, and prepare a pull request
 
 Learn: repository APIs, sandboxing, test execution, and approval workflows.
 
-[When AI Tools Turn Against You: Operationalizing MCP Server Security with the Splunk MCP TA | Splunk](https://images.openai.com/static-rsc-4/oaHbLWjGu8DaWKsX_lKOr-wnpfA4FJjiGxK6Xk2qHPIWqWXWoM0epxnZYegCUxd5eiXcdUGir43hvVXPiQXFCLcqCOndPJU0WYOKzQy8uPzvTjQIUbDmD6UXQcHLJfnUaV-ACu7yn1fFtDx9sYEwXCFKFYcYJQu8O3XfGaQOshw?purpose=inline)
 
 Project 5 — MCP Server with Registry
 
@@ -181,46 +160,124 @@ Learn: protocol design, tool discovery, integration testing, and security bounda
 
 ## 5. Map the roadmap to a real Transflower project
 
-Use the TFLInsurance API as the running example. Students already understand the familiar application layers; AI becomes an extension of that engineering foundation rather than a replacement for it.
+### TFLCoMentor — AI-Powered Learning & Mentorship Architecture
 
-React / Web Client
+Transflower Mentor principle: AI should help students understand, practice, and improve. But assessment results, student records, and placement decisions must come from authorized systems and verified evidence — not model-generated assumptions.
 
-Customer asks a question about an insurance policy
+#### 1. TFLCoMentor AI application architecture
 
-ASP.NET Core or FastAPI
+React Web Client — TFLCoMentor Portal
 
-Authentication · API validation · Rate limits
+Student · Mentor · SME · Admin · Employer
+
+Ask questions about skills, assessments, learning paths, and feedback
+
+ASP.NET Core API Gateway / Backend
+
+Authentication · Role-based authorization · Input validation · Rate limiting
 
 AI Orchestration Layer
 
-Prompt and context management · RAG · Tool selection
+Prompt management · Context engineering · RAG · Tool selection · Response validation
 
-RAG
+Knowledge / RAG
 
-Insurance documents and policy terms
+Course notes, skill taxonomy, rubrics, learning resources, mentor-approved guidance
 
-Business tools
+Business Tools / APIs
 
-Authorized policy lookup APIs and SQL
+Assessment results, skill profiles, feedback, learning plans, placement eligibility
 
 LLM + Validation + Observability
 
-Grounded response · Audit logs · Evaluation · Monitoring
+Grounded explanations · Evaluation · Audit logs · Monitoring · Feedback
 
-For example, a customer asks, “What is the maturity period of my policy?”
+Logical architecture; the AI components can be modules within the existing modular monolith rather than separate microservices.
 
-- RAG can explain the relevant terms from policy documents.
-- A business API can retrieve the customer's actual policy details.
-- The LLM can present the result in understandable language.
-- Authorization and business rules must decide which records the customer is allowed to access.
 
-The model should not invent policy facts or independently authorize access to private customer records.
+#### 2. Map the architecture to TFLCoMentor modules
 
-## 6. A practical 12-week learning plan
+| Architecture component  | TFLCoMentor responsibility                                                    |
+| ----------------------- | ----------------------------------------------------------------------------- |
+| React web client        | Student, Mentor, SME, Admin, and Employer portals                             |
+| ASP.NET Core backend    | API endpoints, authentication, authorization, and orchestration entry points  |
+| Skill Taxonomy          | Skill definitions, competencies, proficiency levels, and relationships        |
+| Evaluation Content      | Questions, rubrics, assessment criteria, and learning material                |
+| Assessment Orchestrator | Assessment lifecycle, scheduling, and coordination                            |
+| Evaluation              | Assessment execution, scoring rules, and validated results                    |
+| Insight Core            | Skill-gap analysis, trends, and evidence-based insights                       |
+| Growth Engine           | Personalized practice plans, recommendations, and progress tracking           |
+| AI orchestration        | Coordinates RAG retrieval, approved tools, LLM calls, and response validation |
+| Observability           | AI traces, evaluation metrics, latency, token cost, and audit events          |
+
+The AI layer complements the existing product modules. It should not replace their business responsibilities.
+
+
+#### 3. Example: A student asks a question
+
+Student asks:
+
+> “I scored 65% in my Python assessment. What should I learn next to become job-ready?”
+
+Step 1 — Understand the question
+
+The AI orchestration layer identifies that the student wants personalized learning guidance.
+
+Step 2 — Verify identity and permissions
+
+The backend establishes the student's identity and checks which assessment records they are allowed to access.
+
+Step 3 — Retrieve actual evidence
+
+An authorized Evaluation API retrieves the student's recorded score and skill-level results. RAG retrieves the relevant rubric and learning resources.
+
+Step 4 — Generate a grounded recommendation
+
+The LLM explains the evidence and suggests suitable practice activities based on verified skill gaps.
+
+Step 5 — Validate and respond
+
+The system checks that recommendations follow the learning rules, references suitable material, and distinguishes recorded facts from suggestions.
+
+Example response:
+
+> Your recorded Python assessment score is 65%. Based on the skill-level results, your next learning activities should focus on the areas where you lost marks. Start with targeted exercises, implement a small project, and take a follow-up assessment to measure improvement.
+
+The actual skill gaps must come from the recorded assessment data; the AI must not infer them from the overall score alone.
+
+
+#### 4. RAG versus business APIs in TFLCoMentor
+
+| Question                                             | Correct source                                              |
+| ---------------------------------------------------- | ----------------------------------------------------------- |
+| “Explain Python inheritance.”                        | RAG over approved learning resources                        |
+| “What skills does the Python backend track include?” | Skill Taxonomy API and relevant RAG content                 |
+| “What was my last assessment score?”                 | Authorized Evaluation API                                   |
+| “Which skills need improvement?”                     | Evaluation results and Insight Core                         |
+| “Suggest my next learning activities.”               | Growth Engine rules and learning resources, supported by AI |
+| “Am I eligible for placement?”                       | Authoritative placement rules and validated records         |
+
+Remember: RAG answers what do our approved learning resources say? Business APIs answer what is actually recorded in TFLCoMentor?
+
+
+#### 5. Non-negotiable AI engineering rules
+
+- Authorization first: Never rely on the LLM to decide whether a student can access another student's records.
+- Verified facts: Scores, attendance, skill profiles, and placement status must come from trusted backend services.
+- Grounded answers: Use approved learning resources and clearly identify when evidence is missing.
+- Human mentorship: AI can recommend learning activities, but consequential assessment or placement decisions should follow validated rules and appropriate human review.
+- Measurable quality: Evaluate recommendation relevance, factual accuracy, access-control behavior, latency, and cost.
+- Auditable behavior: Record appropriate request, tool-call, and decision metadata without unnecessarily logging passwords, tokens, or sensitive student information.
+
+The result is a TFLCoMentor platform in which AI provides explanations and guidance, domain modules provide evidence, and mentors guide growth.
+
+
+
+#### 6. A practical 12-week learning plan
 
 This is my suggested implementation plan, not the official course schedule.
 
-## Learning tracker
+##### Learning tracker
 
 0 of 6 milestones
 
@@ -248,28 +305,9 @@ Weeks 11–12: Deployment, observability, security, and capstone
 
 Deliverable: Deployed application with tests, evaluation, and monitoring
 
-## 7. Where to start
 
-Official GitHub repository
-
-Source code, lesson folders, and project curriculum.
-
-[Explore the repository](https://github.com/rohitg00/ai-engineering-from-scratch)
-
-Official learning website
-
-Browse the 20-phase curriculum and choose a learning path.
-
-[Explore the curriculum](https://aiengineeringfromscratch.com/)
-
-The published website currently describes the curriculum as 528 lessons across 20 phases, with Python, TypeScript, Rust, and Julia examples. The repository is the best place to check the current lesson content because counts and materials can change.&#x20;
-
-[image](https://www.google.com/s2/favicons?domain=https://aiengineeringfromscratch.com\&sz=32)
-
-Free AI Engineering Course
-
-+1
 
 Final mentor message: AI engineering is not just prompt engineering. It is software engineering combined with model understanding, data retrieval, evaluation, protocols, security, and production operations.
 
 For Transflower students, the target should be simple: understand the concept, build a working component, test its failure cases, integrate it into a real application, and demonstrate the result. That is how a learning roadmap becomes employable engineering skill.
+
