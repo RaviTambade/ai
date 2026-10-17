@@ -75,61 +75,6 @@ Access to student information must be governed by role-based permissions and app
 
 TFLCoMentor follows a layered enterprise software architecture. Each layer has a clearly defined responsibility, allowing the platform to evolve without unnecessarily coupling the user interface, business logic, data, and AI capabilities.
 
-```
-
-                    TFLCoMentor AI Platform
-+------------------------------------------------------+
-| L1. CLIENT & INTERFACE                               |
-| React Web Client | Student | Mentor | Admin | Chat   |
-+---------------------------+--------------------------+
-                            |
-+---------------------------v--------------------------+
-| L2. EDGE, DNS & TRAFFIC                              |
-| DNS | TLS | WAF | Load Balancer | API Gateway        |
-+---------------------------+--------------------------+
-                            |
-+---------------------------v--------------------------+
-| L3. APIs & SERVICE LAYER                              |
-| ASP.NET Core / FastAPI                                |
-| Auth | Student | Assessment | Mentor | Business Rules |
-+---------------------------+--------------------------+
-                            |
-               +------------+-------------+
-               |                          |
-+--------------v-------------+  +---------v------------+
-| L4. MESSAGING & WORKFLOWS  |  | L7. AI ORCHESTRATION |
-| Queue | Events | Jobs      |  | LLM | Prompts | RAG  |
-| Notifications | Workflows  |  | Context | Agents     |
-+--------------+-------------+  +----------+-----------+
-               |                           |
-+--------------v-------------+  +----------v-----------+
-| L5. DATA, STORAGE & CACHE  |  | L6.SEARCH & RETRIEVAL|
-| MySQL | Object Storage     |  | Full Text | Vectors  |
-| Redis | Business Records   |  | Embeddings | Rerank  |
-+----------------------------+  +----------------------+
-                                           |
-                                +----------v-----------+
-                                | MCP / APPROVED TOOLS |
-                                | TFLAssessment APIs   |
-                                | Profile / Ticket APIs|
-                                +----------------------+
-
-+------------------------------------------------------+
-| L8. COMPUTE & DEPLOYMENT                             |
-| Containers | CI/CD | Cloud | Scaling | Backups       |
-+------------------------------------------------------+
-
-+------------------------------------------------------+
-| L9. SECURITY & OBSERVABILITY — ALL LAYERS            |
-| IAM | Authorization | Secrets | Audit | Logs | Traces|
-| Metrics | Alerts | AI Evaluation | Cost Monitoring   |
-+------------------------------------------------------+
-
-
-```
-
-
-
 #### Layer 1 — Client and Interface
 
 Provides the user-facing experience.
