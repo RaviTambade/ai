@@ -1,54 +1,54 @@
-# Transflower Mentor Analysis: AI Engineering Roadmap 2026
+# AI Engineering Roadmap 2026
 
-The most valuable idea in this roadmap is the progression from understanding LLMs → building AI applications → connecting tools and agents → deploying reliable production systems.
+The most valuable idea in this roadmap is the progression from 
 
+Understanding LLMs → Building AI applications → Connecting tools and agents → Deploying reliable production systems.
 
-Mentor's principle: Don't learn AI engineering by collecting frameworks. Learn it by building systems, understanding their architecture, testing their behavior, and solving real business problems.
+Mentor's principle: 
+
+Don't learn AI engineering by collecting frameworks. 
+
+Learn it by building systems, understanding their architecture, testing their behavior
+
+solve real business problems.
 
 ## 1. Understand the five learning pillars
 
-1\. LLMs from scratch
+1. LLMs from scratch
 
 Understand tokens, embeddings, transformers, attention, inference, context windows, and model limitations.
 
 Outcome: Explain what happens when a model receives a prompt and generates a response.
 
-
-2\. RAG, fine-tuning and evaluations
+2. RAG, fine-tuning and evaluations
 
 Learn document ingestion, chunking, embeddings, vector search, retrieval, grounded answers, evaluation datasets, and model adaptation.
 
 Outcome: Build an AI assistant that uses trusted organizational knowledge.
 
-
-3\. MCP, tool calling and protocols
+3. MCP, tool calling and protocols
 
 Connect models to APIs, databases, files and external services through well-defined interfaces.
 
 Outcome: Build an assistant that can retrieve actual policy information rather than inventing it.
 
-
-
-4\. AI agents and agent engineering
+4. AI agents and agent engineering
 
 Learn planning, tool selection, state, memory, workflow orchestration, error handling, and human approval.
 
 Outcome: Automate a bounded business workflow with controlled permissions.
 
-5\. Infrastructure and production
+5. Infrastructure and production
 
 Learn model serving, deployment, gateways, caching, security, observability, latency, cost control, and scalability.
 
 Outcome: Operate an AI application reliably, not just demonstrate it on a laptop.
 
-
 ## 2. The complete learning journey: foundations to production
 
 The official AI Engineering from Scratch curriculum is broader than the five pillars in the post. Its 20 phases cover mathematics, machine learning, deep learning, vision, NLP, transformers, LLMs, agents, infrastructure, safety, and capstone projects.&#x20;
 
-
-
-Stage 1 — Understand the intelligence
+**Stage 1 — Understand the intelligence**
 
 Phases 0–7 · Foundations
 
@@ -59,7 +59,7 @@ Phases 0–7 · Foundations
 
 Build: a small neural network, tokenizer, and attention mechanism.
 
-Stage 2 — Understand and engineer LLMs
+**Stage 2 — Understand and engineer LLMs**
 
 Phases 8–12 · Generative AI
 
@@ -69,7 +69,7 @@ Phases 8–12 · Generative AI
 
 Build: a basic language model and an application using an existing LLM.
 
-Stage 3 — Connect models to the real world
+**Stage 3 — Connect models to the real world**
 
 Phases 13–16 · Protocols and agents
 
@@ -79,7 +79,7 @@ Phases 13–16 · Protocols and agents
 
 Build: an agent that invokes approved APIs and produces verifiable results.
 
-Stage 4 — Ship reliable AI systems
+**Stage 4 — Ship reliable AI systems**
 
 Phases 17–19 · Production and capstones
 
@@ -88,7 +88,6 @@ Phases 17–19 · Production and capstones
 - Integrated capstone projects
 
 Build: a deployed AI service with tests, evaluation, access control, and monitoring.
-
 
 ## 3. The advanced topics that distinguish an AI engineer
 
@@ -112,8 +111,7 @@ One important distinction to teach: RAG, fine-tuning, and context engineering so
 
 These projects turn the roadmap into demonstrable engineering skills.
 
-
-Project 1 — Terminal Coding Agent
+**Project 1 — Terminal Coding Agent**
 
 Intermediate
 
@@ -121,9 +119,7 @@ Build a Python agent that reads a task, selects approved tools, inspects files, 
 
 Learn: agent loops, tool calling, permissions, and failure handling.
 
-
-
-Project 2 — Production RAG Chatbot
+**Project 2 — Production RAG Chatbot**
 
 Intermediate
 
@@ -131,8 +127,7 @@ Build an assistant that answers questions about Application Development using ap
 
 Learn: ingestion, chunking, embeddings, retrieval, grounded generation, and evaluation.
 
-
-Project 3 — Multi-Agent Software Team
+**Project 3 — Multi-Agent Software Team**
 
 Advanced
 
@@ -141,7 +136,7 @@ Coordinate planner, developer, and reviewer agents to complete a bounded softwar
 Learn: orchestration, shared state, evaluation, and coordination costs.
 
 
-Project 4 — GitHub Issue-to-PR Agent
+**Project 4 — GitHub Issue-to-PR Agent**
 
 Advanced
 
@@ -150,7 +145,7 @@ Turn a GitHub issue into a proposed patch, run tests, and prepare a pull request
 Learn: repository APIs, sandboxing, test execution, and approval workflows.
 
 
-Project 5 — MCP Server with Registry
+**Project 5 — MCP Server with Registry**
 
 Advanced
 
@@ -166,34 +161,75 @@ Transflower Mentor principle: AI should help students understand, practice, and 
 
 #### 1. TFLCoMentor AI application architecture
 
-React Web Client — TFLCoMentor Portal
-
-Student · Mentor · SME · Admin · Employer
-
-Ask questions about skills, assessments, learning paths, and feedback
-
-ASP.NET Core API Gateway / Backend
-
-Authentication · Role-based authorization · Input validation · Rate limiting
-
-AI Orchestration Layer
-
-Prompt management · Context engineering · RAG · Tool selection · Response validation
-
-Knowledge / RAG
-
-Course notes, skill taxonomy, rubrics, learning resources, mentor-approved guidance
-
-Business Tools / APIs
-
-Assessment results, skill profiles, feedback, learning plans, placement eligibility
-
-LLM + Validation + Observability
-
-Grounded explanations · Evaluation · Audit logs · Monitoring · Feedback
+```
+                 TFLCoMentor Portal
+        Student · Mentor · SME · Admin · Employer
+                           |
+                           v
+              +--------------------------+
+              |   React Web Client       |
+              |--------------------------|
+              | Ask questions about:     |
+              | Skills · Assessments     |
+              | Learning Paths · Feedback|
+              +------------+-------------+
+                           |
+                           v
+              +--------------------------+
+              | ASP.NET Core API Gateway |
+              |         / Backend        |
+              |--------------------------|
+              | Authentication           |
+              | Role-Based Authorization |
+              | Input Validation         |
+              | Rate Limiting            |
+              +------------+-------------+
+                           |
+                           v
+              +--------------------------+
+              | AI Orchestration Layer   |
+              |--------------------------|
+              | Prompt Management        |
+              | Context Engineering      |
+              | RAG                      |
+              | Tool Selection           |
+              | Response Validation      |
+              +-----+--------------+-----+
+                    |              |
+          +---------v------+  +----v------------------+
+          | Knowledge / RAG|  | Business Tools / APIs |
+          |----------------|  |-----------------------|
+          | Course Notes   |  | Assessment Results    |
+          | Skill Taxonomy |  | Skill Profiles        |
+          | Rubrics        |  | Feedback              |
+          | Learning       |  | Learning Plans        |
+          | Resources      |  | Placement Eligibility |
+          | Mentor-Approved|  +----------+------------+
+          | Guidance       |             |
+          +---------+------+             |
+                    |                    |
+                    +----------+---------+
+                               |
+                               v
+                  +--------------------------+
+                  | LLM + Validation         |
+                  | + Observability          |
+                  |--------------------------|
+                  | Grounded Explanations    |
+                  | Response Evaluation      |
+                  | Audit Logs               |
+                  | Monitoring               |
+                  | User Feedback            |
+                  +------------+-------------+
+                               |
+                               v
+                  +--------------------------+
+                  | Validated AI Response    |
+                  | to React Web Client      |
+                  +--------------------------+
+```
 
 Logical architecture; the AI components can be modules within the existing modular monolith rather than separate microservices.
-
 
 #### 2. Map the architecture to TFLCoMentor modules
 
@@ -262,16 +298,14 @@ Remember: RAG answers what do our approved learning resources say? Business APIs
 
 #### 5. Non-negotiable AI engineering rules
 
-- Authorization first: Never rely on the LLM to decide whether a student can access another student's records.
-- Verified facts: Scores, attendance, skill profiles, and placement status must come from trusted backend services.
-- Grounded answers: Use approved learning resources and clearly identify when evidence is missing.
-- Human mentorship: AI can recommend learning activities, but consequential assessment or placement decisions should follow validated rules and appropriate human review.
-- Measurable quality: Evaluate recommendation relevance, factual accuracy, access-control behavior, latency, and cost.
-- Auditable behavior: Record appropriate request, tool-call, and decision metadata without unnecessarily logging passwords, tokens, or sensitive student information.
+- **Authorization first**: Never rely on the LLM to decide whether a student can access another student's records.
+- **Verified facts**: Scores, attendance, skill profiles, and placement status must come from trusted backend services.
+- **Grounded answers**: Use approved learning resources and clearly identify when evidence is missing.
+- **Human mentorship**: AI can recommend learning activities, but consequential assessment or placement decisions should follow validated rules and appropriate human review.
+- **Measurable quality**: Evaluate recommendation relevance, factual accuracy, access-control behavior, latency, and cost.
+- **Auditable behavior**: Record appropriate request, tool-call, and decision metadata without unnecessarily logging passwords, tokens, or sensitive student information.
 
 The result is a TFLCoMentor platform in which AI provides explanations and guidance, domain modules provide evidence, and mentors guide growth.
-
-
 
 #### 6. A practical 12-week learning plan
 
@@ -281,33 +315,31 @@ This is my suggested implementation plan, not the official course schedule.
 
 0 of 6 milestones
 
-Weeks 1–2: Python, APIs, JSON, Git, and AI fundamentals
+**Weeks 1–2**: Python, APIs, JSON, Git, and AI fundamentals
 
 Deliverable: Working API integrated with an LLM
 
-Weeks 3–4: Tokens, embeddings, prompting, and model behavior
+**Weeks 3–4**: Tokens, embeddings, prompting, and model behavior
 
 Deliverable: Prompt experiments and a small model-internals lab
 
-Weeks 5–6: RAG, vector search, and evaluation
+**Weeks 5–6**: RAG, vector search, and evaluation
 
 Deliverable: Insurance document assistant with source citations
 
-Weeks 7–8: Tool calling, MCP, and secure integrations
+**Weeks 7–8**: Tool calling, MCP, and secure integrations
 
 Deliverable: Assistant that calls approved insurance APIs
 
-Weeks 9–10: Agent workflows, state, and guardrails
+**Weeks 9–10**: Agent workflows, state, and guardrails
 
 Deliverable: Bounded insurance support workflow with human approval
 
-Weeks 11–12: Deployment, observability, security, and capstone
+**Weeks 11–12**: Deployment, observability, security, and capstone
 
 Deliverable: Deployed application with tests, evaluation, and monitoring
 
 
-
-Final mentor message: AI engineering is not just prompt engineering. It is software engineering combined with model understanding, data retrieval, evaluation, protocols, security, and production operations.
+AI engineering is not just prompt engineering. It is software engineering combined with model understanding, data retrieval, evaluation, protocols, security, and production operations.
 
 For Transflower students, the target should be simple: understand the concept, build a working component, test its failure cases, integrate it into a real application, and demonstrate the result. That is how a learning roadmap becomes employable engineering skill.
-

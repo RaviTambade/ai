@@ -553,13 +553,9 @@ Don't tell users:  “Trust our AI.”
 Instead demonstrate:
 
 > “Here is the answer.”
-
 > “Here is the source.”
-
 > “Here is the reasoning.”
-
 > “Here is the confidence.”
-
 > “Here is the business rule.”
 
 Then allow the user to verify. Trust is earned.
@@ -627,19 +623,14 @@ Business Problem Solver
 ### Remember:
 
 > **Data gives AI something to know.**
-
 > **Context gives AI something relevant to use.**
-
 > **Evaluation tells us whether AI is right.**
-
 > **Adoption makes AI part of the real workflow.**
-
 > **Trust makes people act on AI.**
 
 And finally:
 
 # **A model gets you moving.  The bridge gets you there.**
-
 
 In the insurance example, the **AI should not be presented as the decision-maker**. It should be a decision-support component inside a controlled insurance workflow.
 
