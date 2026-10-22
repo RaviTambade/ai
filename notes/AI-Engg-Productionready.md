@@ -1,4 +1,4 @@
-# Transflower Mentor Roadmap: Becoming a Production-Ready AI Engineer
+# Becoming a Production-Ready AI Engineer
 
 Mentor's message: Don't start by building an AI Agent. Start by understanding the layers that make an AI Agent reliable.
 
@@ -13,7 +13,7 @@ An engineer doesn't become production-ready by learning one framework. The engin
         +-------------------------------+
         |  10. ADVANCED AI ENGINEERING  |
         |  MCP · GraphRAG · Voice ·     |
-        |  Vision AI · AgentOps          |
+        |  Vision AI · AgentOps         |
         +---------------+---------------+
                         |
         +---------------v---------------+
@@ -48,7 +48,7 @@ An engineer doesn't become production-ready by learning one framework. The engin
                         |
         +---------------v---------------+
         |  4. LLMs & PROMPT ENGINEERING |
-        |  Tokens · Context · Outputs  |
+        |  Tokens · Context · Outputs   |
         +---------------+---------------+
                         |
         +---------------v---------------+
